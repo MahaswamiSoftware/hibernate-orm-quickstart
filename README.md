@@ -1,4 +1,4 @@
-###In JVM mode it doesn't throw any runtime exception. For running in JVM mode, run:
+### In JVM mode it doesn't throw any runtime exception. For running in JVM mode, run:
 
 > ./mvnw install
 >
