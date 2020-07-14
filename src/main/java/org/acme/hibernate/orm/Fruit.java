@@ -6,6 +6,7 @@ import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
 import com.vladmihalcea.hibernate.type.json.JsonNodeBinaryType;
 import com.vladmihalcea.hibernate.type.json.JsonNodeStringType;
 import com.vladmihalcea.hibernate.type.json.JsonStringType;
+import io.quarkus.runtime.annotations.RegisterForReflection;
 import org.hibernate.annotations.Type;
 import org.hibernate.annotations.TypeDef;
 import org.hibernate.annotations.TypeDefs;
@@ -71,4 +72,11 @@ public class Fruit {
         this.name = name;
     }
 
+    public Map<String, Object> getInfo() {
+        return info;
+    }
+
+    public void setInfo(Map<String, Object> info) {
+        this.info = info;
+    }
 }
