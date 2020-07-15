@@ -1,4 +1,4 @@
-package org.acme.hibernate.orm;
+package com.mahaswami.hibernate.jsonb;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
